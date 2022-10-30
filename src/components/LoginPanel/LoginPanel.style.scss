@@ -1,0 +1,15 @@
+@use '@utils/vars.scss' as v;
+@use '@utils/mixins.scss' as m;
+
+.login-panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  * {
+    margin: 0 10px;
+  }
+}
+
+.panel-button {
+  @include m.nav-button-with-shadow;
+}

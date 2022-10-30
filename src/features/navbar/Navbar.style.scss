@@ -1,0 +1,15 @@
+@use '../../utils/vars.scss' as v;
+@use '../../utils/mixins.scss' as m;
+
+.navbar {
+  background-color: v.$nav-color;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 95px;
+
+  .login-button {
+    @include m.nav-button-with-shadow;
+  }
+}
