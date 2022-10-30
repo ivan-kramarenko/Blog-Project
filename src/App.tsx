@@ -1,11 +1,11 @@
 import React, { ReactElement } from 'react'
 import ArticleItem from './features/article/articleItem/ArticleItem'
-import Navbar from './features/navbar/Navbar'
+import Layout from './features/layout/Layout'
 
 const App = (): ReactElement => {
   return (
     <div className="App">
-      <ArticleItem />
+      <Layout />
     </div>
   )
 }
