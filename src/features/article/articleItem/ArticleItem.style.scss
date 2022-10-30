@@ -1,0 +1,4 @@
+@use '@utils/vars.scss' as v;
+.item {
+  background-color: v.$nav-color;
+}
