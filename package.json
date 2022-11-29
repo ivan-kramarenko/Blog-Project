@@ -27,6 +27,7 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "latest",
     "prettier": "2.7.1",
+    "sass": "^1.56.1",
     "typescript": "*",
     "vite": "^3.2.0"
   }
