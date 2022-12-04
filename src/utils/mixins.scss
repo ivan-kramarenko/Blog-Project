@@ -3,8 +3,9 @@
 @mixin nav-button-with-shadow {
   background-color: inherit;
   border-width: 0;
-  border-radius: 30px;
+  border-radius: 7px;
   padding: 7px;
+  margin: 5px;
   &:hover {
     background-color: darken($color: v.$nav-color, $amount: 10);
     cursor: pointer;

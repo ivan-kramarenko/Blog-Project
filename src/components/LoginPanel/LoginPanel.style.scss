@@ -1,9 +1,9 @@
-@use '@utils/vars.scss' as v;
-@use '@utils/mixins.scss' as m;
+@use '../../utils/vars.scss' as v;
+@use '../../utils/mixins.scss' as m;
 
 .login-panel {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   * {
     margin: 0 10px;
